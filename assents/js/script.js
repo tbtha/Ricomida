@@ -5,8 +5,11 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-
 $("#alertCorreo").click(function(){
-    $("button").hide();
+  $("button").alert-success("esta es una alerta");
 });
+//$("#preparation").click(function(){
+//  $("#preparation").css( color: red;)
+//});
+
 });
