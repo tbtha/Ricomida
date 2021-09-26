@@ -12,6 +12,6 @@ $("h4").on("click",function(element){
   $(element.target).addClass("text-danger");
 });
 
-$(".card-title").click(function(){
+$(".card-title").dbclick(function(){
   $(".card-text").toggle();
 });
