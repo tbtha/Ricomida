@@ -4,17 +4,25 @@ body{
 
 section{
     font-family: 'Cabin', sans-serif;
+    
 }
-
-.navbar-brand{
+.navbar-brand, footer {
     font-family: 'Lobster', cursive;
     font-weight: 400;
 }
 
+.carousel-indicators{
+    position: absolute;
+    top: 50%;
 
+}
 .carousel-indicators [data-bs-target] { 
     height: 11px; 
     width: 11px; 
-    border-radius: 50%;   
+    border-radius: 50%; 
+    background-color: #373A3C;  
 }
-
+.lista{
+    list-style-type: none;
+    padding: 0px;
+}
